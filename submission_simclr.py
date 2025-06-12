@@ -6,7 +6,10 @@ import os
 # === CONFIG ===
 SEED = "61437433"      
 TOKEN = "09596680"    
-ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR.onnx"
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR.onnx"        # alpha = 0.5
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_07.onnx"          # alpha = 0.7
+ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_09.onnx"          # alpha = 0.9
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_cosine.onnx"          # alpha = 0.7 _&_ cosine loss
 
 # === Validate ONNX Model ===
 print("\U0001F50D Testing ONNX format...")
