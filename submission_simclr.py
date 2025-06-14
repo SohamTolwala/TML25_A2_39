@@ -6,12 +6,18 @@ import os
 # === CONFIG ===
 SEED = "61437433"      
 TOKEN = "09596680"    
-# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR.onnx"                     # MSE_alpha = 0.5          L2 = 6.81
-# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_07.onnx"                  # MSE_alpha = 0.7          L2 = 6.6186
-# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_09.onnx"                  # MSE_alpha = 0.9          L2 = 6.6148
-ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_cosine_norm_loss.onnx"   # cosine_norm_alpha = 0.9  L2 = 19.93
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR.onnx"                     # MSE_alpha = 0.5           L2 = 6.81
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_07.onnx"                  # MSE_alpha = 0.7           L2 = 6.6186
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_09.onnx"                  # MSE_alpha = 0.9           L2 = 6.6148
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_cosine_norm_loss.onnx"   # cosine_norm_alpha = 0.9    L2 = 19.93
 # ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_cosine.onnx"              # alpha = 0.7 _&_ cosine loss   L2 = ?
-# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_NT_xent.onnx"             # NT xent _&_ tau = 1.0        L2 = ?
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_NT_xent.onnx"             # NT xent _&_ tau = 1.0     L2 = 35.20
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_resnet50.onnx"             # resnet50                    L2 = 22.044
+
+
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_MSE_loss_opt.onnx"             # resnet18, MSE-full optimized  L2 = 6.030
+# ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_DINO_100.onnx"                 # DINO                          L2 = ?
+ONNX_PATH = "F:\\TML_model_stealing\\TML25_A2_39\\models\\model_Sim_CLR_DINO_150_optim.onnx"           # DINO_optim 150 epochs         L2 = 28.60
 
 # === Validate ONNX Model ===
 print("\U0001F50D Testing ONNX format...")
