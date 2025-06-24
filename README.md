@@ -7,6 +7,8 @@ Soham Ritesh Tolwala – soto00002@stud.uni-saarland.de
 Laxmiraman Dnyaneshwar Gudewar – lagu00003@stud.uni-saarland.de  
 
 ---
+Report: `TML_Assignment2_report.docx`
+---
 ## Folder Map
 
 | Path | What’s inside |
