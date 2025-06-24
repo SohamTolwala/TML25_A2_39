@@ -59,3 +59,7 @@ python submit/submission_simclr.py models/best_simclr_procrustes.onnx
 
 
 ---
+
+
+Best model training vs epoch plot
+[SimCLR300_MSE_optim](/MSE_300optim.png)
